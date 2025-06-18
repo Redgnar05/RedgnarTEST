@@ -1,0 +1,58 @@
+
+
+[
+    {"id": 1, "word": "READ", "options": ["correr", "andar", "leer", "comer"], "answer": "leer"},
+    {"id": 2, "word": "EAT", "options": ["leer", "comer", "ver", "salir"], "answer": "comer"},
+    {"id": 3, "word": "PLAY", "options": ["jugar", "venir", "ver", "decir"], "answer": "jugar"},
+    {"id": 4, "word": "COME", "options": ["preguntar", "dar", "querer", "venir"], "answer": "venir"},
+    {"id": 5, "word": "ASK", "options": ["preguntar", "intentar", "encontrar", "construir"], "answer": "preguntar"},
+    {"id": 6, "word": "GO", "options": ["ver", "dar", "ir", "usar"], "answer": "ir"},
+    {"id": 7, "word": "GET", "options": ["conseguir", "encontrar", "construir", "sentir"], "answer": "conseguir"},
+    {"id": 8, "word": "FIND", "options": ["andar", "encontrar", "salir", "intentar"], "answer": "encontrar"},
+    {"id": 9, "word": "MAKE", "options": ["salir", "correr", "trabajar", "construir"], "answer": "construir"},
+    {"id": 10, "word": "FEEL", "options": ["sentir", "intentar", "jugar", "preguntar"], "answer": "sentir"},
+    {"id": 11, "word": "WORK", "options": ["correr", "comer", "trabajar", "usar"], "answer": "trabajar"},
+    {"id": 12, "word": "THINK", "options": ["pensar", "preguntar", "saber", "querer"], "answer": "pensar"},
+    {"id": 13, "word": "SEE", "options": ["leer", "comer", "jugar", "ver"], "answer": "ver"},
+    {"id": 14, "word": "KNOW", "options": ["correr", "andar", "saber", "comer"], "answer": "saber"},
+    {"id": 15, "word": "TRY", "options": ["leer", "intentar", "ver", "salir"], "answer": "intentar"},
+    {"id": 16, "word": "USE", "options": ["usar", "venir", "ver", "decir"], "answer": "usar"},
+    {"id": 17, "word": "TAKE", "options": ["preguntar", "dar", "querer", "coger"], "answer": "coger"},
+    {"id": 18, "word": "WANT", "options": ["querer", "intentar", "encontrar", "construir"], "answer": "querer"},
+    {"id": 19, "word": "LOOK", "options": ["ver", "dar", "mirar", "usar"], "answer": "mirar"},
+    {"id": 20, "word": "SPEAK", "options": ["hablar", "encontrar", "construir", "sentir"], "answer": "hablar"},
+    {"id": 21, "word": "SAY", "options": ["andar", "decir", "salir", "intentar"], "answer": "decir"},
+    {"id": 22, "word": "LEAVE", "options": ["usar", "correr", "trabajar", "salir"], "answer": "salir"},
+    {"id": 23, "word": "GIVE", "options": ["dar", "intentar", "jugar", "preguntar"], "answer": "dar"},
+    {"id": 24, "word": "RUN", "options": ["andar", "comer", "correr", "usar"], "answer": "correr"},
+    {"id": 25, "word": "WALK", "options": ["andar", "preguntar", "saber", "querer"], "answer": "andar"},
+
+    {"id": 26, "word": "evenings", "options": ["mañana", "tarde-noche", "noche", "madrugada"], "answer": "tarde-noche"},
+    {"id": 27, "word": "morning", "options": ["mañana", "tarde-noche", "noche", "madrugada"], "answer": "mañana"},
+    {"id": 28, "word": "night", "options": ["mañana", "tarde-noche", "noche", "madrugada"], "answer": "noche"},
+    {"id": 29, "word": "dawn", "options": ["mañana", "tarde-noche", "noche", "madrugada"], "answer": "madrugada"},
+
+    {"id": 30, "word": "Monday", "options": ["Lunes", "Martes", "Miércoles", "Jueves"], "answer": "Lunes"},
+    {"id": 31, "word": "Tuesday", "options": ["Lunes", "Martes", "Miércoles", "Jueves"], "answer": "Martes"},
+    {"id": 32, "word": "Wednesday", "options": ["Lunes", "Martes", "Miércoles", "Jueves"], "answer": "Miércoles"},
+    {"id": 33, "word": "Thursday", "options": ["Lunes", "Martes", "Miércoles", "Jueves"], "answer": "Jueves"},
+    {"id": 34, "word": "Friday", "options": ["Jueves", "Viernes", "Sábado", "Domingo"], "answer": "Viernes"},
+    {"id": 35, "word": "Saturday", "options": ["Jueves", "Viernes", "Sábado", "Domingo"], "answer": "Sábado"},
+    {"id": 36, "word": "Sunday", "options": ["Jueves", "Viernes", "Sábado", "Domingo"], "answer": "Domingo"},
+
+    {"id": 37, "word": "I don't see anything",
+    "options": ["No sé nada", "No veo nada", "No sé cuando", "No veo cosas"], "answer": "No veo nada"},
+    {"id": 38, "word": "I can't find my glasses",
+    "options": ["No puedo encontrar mis vasos", "No puedo encontrar mis zapatos", "No puedo encontrar mis gafas", "No puedo encontrar mis platos"], "answer": "No puedo encontrar mis gafas"}
+]
+
+
+
+
+
+
+
+
+
+
+
