@@ -1,0 +1,172 @@
+
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: #f0f4f8;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background: #282c34;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Estilos para el h1 con enlace */
+.logo-link {
+  text-decoration: none;
+  color: inherit; /* mantiene el color del h1 */
+  transition: transform 0.3s ease, color 0.3s ease;
+  display: inline-block;
+}
+
+/* Animación al hacer hover */
+.logo-link:hover {
+  transform: scale(1.1);
+  color: #EE9B00; /* o el color que tú prefieras */
+}
+
+
+
+
+
+
+
+main {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 300px;
+}
+
+.options button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+/* Modal base */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* Contenido del modal */
+.modal-content {
+  background-color: #fff;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 500px;
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Botón cerrar */
+.close {
+  color: #aaa;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #000;
+}
+
+/* Botón Manual */
+#manual-btn {
+  padding: 0.5rem 1rem;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#manual-btn:hover {
+  background-color: #0b7dda;
+}
+
+
+
+
+
+
+
+footer {
+   text-align: center;
+   padding: 1rem;
+   background-color: rgba(0, 18, 25, 0.8);
+   color: white;
+}
+
+footer p {
+   margin-bottom: 0.5rem;
+}
+
+.social-icons {
+   display: flex;
+   justify-content: center;
+   gap: 1.5rem;
+   margin-top: 0.5rem;
+   flex-wrap: wrap; /* permite que se ajusten en pantallas pequeñas */
+}
+
+.social-icons a {
+   color: white;
+   font-size: 1.5rem;
+   text-decoration: none;
+   transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+   color: #EE9B00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
