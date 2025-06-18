@@ -4,7 +4,7 @@ from flask import Flask, render_template, jsonify
 import json
 import random
 
-def crear_app():
+def create_app():
     app = Flask(__name__)
 
     @app.route("/")
@@ -23,7 +23,7 @@ def crear_app():
     return app
 
 if __name__ == "__main__":
-    app = crear_app()
+    app = create_app()
     app.run()
 
 
