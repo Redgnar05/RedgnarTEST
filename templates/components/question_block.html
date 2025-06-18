@@ -1,0 +1,21 @@
+
+
+<div class="question" data-answer="{{ q.answer }}">
+  <h2>{{ q.word }}</h2>
+  <div class="options">
+    {% for option in q.options %}
+      <button onclick="checkAnswer(this, '{{ q.answer }}')">{{ option }}</button>
+    {% endfor %}
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+
+
+
+{% extends 'base.html' %}
+
+{% block title %}Test de Traducción{% endblock %}
+
+{% block content %}
+  <div id="questions-container">
+    {% for q in questions %}
+      {% include 'components/question_block.html' %}
+    {% endfor %}
+  </div>
+  <button onclick="resetQuestions()">Resetear</button>
+
+  <script>
+    function checkAnswer(button, correct) {
+      const buttons = button.parentElement.querySelectorAll("button");
+      buttons.forEach(btn => {
+        if (btn.textContent === correct) {
+          btn.style.backgroundColor = "green";
+        } else {
+          btn.style.backgroundColor = "red";
+        }
+        btn.disabled = true;
+      });
+    }
+
+    function resetQuestions() {
+      fetch("/reset")
+        .then(res => res.json())
+        .then(data => {
+          const container = document.getElementById("questions-container");
+          container.innerHTML = "";
+          data.forEach(q => {
+            const div = document.createElement("div");
+            div.className = "question";
+            div.innerHTML = `<h2>${q.word}</h2>
+              <div class="options">
+                ${q.options.map(opt => `<button onclick="checkAnswer(this, '${q.answer}')">${opt}</button>`).join("")}
+              </div>`;
+            container.appendChild(div);
+          });
+        });
+    }
+  </script>
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
