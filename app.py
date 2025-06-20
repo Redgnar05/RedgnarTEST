@@ -11,7 +11,7 @@ def create_app():
     def index():
         with open("questions.json") as f:
             questions = json.load(f)
-        selected = random.sample(questions, 10)
+        selected = random.sample(questions, 15)
         return render_template("index.html", questions=selected)
 
     @app.route("/reset")
