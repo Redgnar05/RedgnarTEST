@@ -43,7 +43,17 @@
     {"id": 37, "word": "I don't see anything",
     "options": ["No sé nada", "No veo nada", "No sé cuando", "No veo cosas"], "answer": "No veo nada"},
     {"id": 38, "word": "I can't find my glasses",
-    "options": ["No puedo encontrar mis vasos", "No puedo encontrar mis zapatos", "No puedo encontrar mis gafas", "No puedo encontrar mis platos"], "answer": "No puedo encontrar mis gafas"}
+    "options": ["No puedo encontrar mis vasos", "No puedo encontrar mis zapatos", "No puedo encontrar mis gafas", "No puedo encontrar mis platos"], "answer": "No puedo encontrar mis gafas"},
+
+    {"id": 39, "word": "I’m playing", "options": ["Yo estoy jugando", "Yo juego", "Yo estaba jugando", "Yo jugaba"],
+    "answer": "Yo estoy jugando"},
+    {"id": 40, "word": "I play", "options": ["Yo estoy jugando", "Yo juego", "Yo estaba jugando", "Yo jugaba"],
+    "answer": "Yo juego"},
+    {"id": 41, "word": "I was playing", "options": ["Yo estoy jugando", "Yo juego", "Yo estaba jugando", "Yo jugaba"],
+    "answer": "Yo estaba jugando"},
+    {"id": 42, "word": "I played", "options": ["Yo estoy jugando", "Yo juego", "Yo estaba jugando", "Yo jugaba"],
+    "answer": "Yo jugaba"}
+
 ]
 
 
